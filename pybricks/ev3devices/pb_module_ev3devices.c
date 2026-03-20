@@ -18,6 +18,7 @@ static const mp_rom_map_elem_t ev3devices_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_InfraredSensor),   MP_ROM_PTR(&pb_type_ev3devices_InfraredSensor)  },
     { MP_ROM_QSTR(MP_QSTR_TouchSensor),      MP_ROM_PTR(&pb_type_ev3devices_TouchSensor)     },
     { MP_ROM_QSTR(MP_QSTR_UltrasonicSensor), MP_ROM_PTR(&pb_type_ev3devices_UltrasonicSensor)},
+    { MP_ROM_QSTR(MP_QSTR_Pixy2),            MP_ROM_PTR(&pb_type_ev3devices_Pixy2)           },
     #if PYBRICKS_PY_EV3_PUP_ALIAS
     { MP_ROM_QSTR(MP_QSTR_ForceSensor),      MP_ROM_PTR(&pb_type_ev3devices_TouchSensor)     },
     #endif

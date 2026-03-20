@@ -15,6 +15,7 @@ extern const mp_obj_type_t pb_type_ev3devices_GyroSensor;
 extern const mp_obj_type_t pb_type_ev3devices_InfraredSensor;
 extern const mp_obj_type_t pb_type_ev3devices_TouchSensor;
 extern const mp_obj_type_t pb_type_ev3devices_UltrasonicSensor;
+extern const mp_obj_type_t pb_type_ev3devices_Pixy2;
 
 #endif // PYBRICKS_PY_EV3DEVICES
 
